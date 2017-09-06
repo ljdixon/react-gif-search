@@ -20,6 +20,7 @@ class App extends React.Component {
 	}
 
 	openModal(gif) {
+		console.log(gif);
 		this.setState({
 			modalIsOpen: true,
 			selectedGif: gif
